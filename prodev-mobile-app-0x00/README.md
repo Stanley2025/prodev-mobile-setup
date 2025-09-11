@@ -1,18 +1,50 @@
-# My First Mobile App - prodev-mobile-app-0x00
+# Welcome to your Expo app 👋
 
-This document outlines the process of scaffolding my first mobile application using the Expo Router template.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Scaffolding Steps
+## Get started
 
-1.  **Cloned Repository:** Cloned the parent `prodev-mobile-setup` repository.
-2.  **Initialized Expo Project:** Ran `npx create-expo-app@latest prodev-mobile-app-0x00` to create the project.
-3.  **Modified the Home Screen:** Edited `app/(tabs)/index.tsx` to change the default text to "** First App Created**".
-4.  **Ran the Application:** Started the development server using `npx expo start` to test the changes.
-5.  **Reset the Project:** Ran `npm run reset-project` to reset the app structure.
+1. Install dependencies
 
-## Observations from the `reset-project` Command
+   ```bash
+   npm install
+   ```
 
-After running the `npm run reset-project` command, the following happened:
+2. Start the app
 
-*   The original contents of the `app` directory were moved into a new `app-example` directory. This preserves the template code and my modifications for reference.
-*   A new, minimal `app` directory was created, providing a clean slate to begin building the application from scratch.
+   ```bash
+   npx expo start
+   ```
+
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
